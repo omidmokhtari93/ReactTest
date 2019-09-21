@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'development',
-    entry: ['./main.js' , './styles.scss']
+    entry: ['./src/main.js' , './src/assets/scss/styles.scss']
     , output: {
         publicPath: '/dist/',
         filename: 'bundle.js'
